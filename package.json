@@ -10,6 +10,22 @@
     "@factor/plugin-seo": "^1.0.0",
     "@factor/plugin-sitemap": "^1.0.0",
     "@factor/plugin-contact-form": "^1.0.0",
-    "@factor/plugin-storage-s3": "^1.0.0"
+    "@factor/plugin-storage-s3": "^1.0.0",
+    "@factor/theme-zeno": "^1.7.10"
+  },
+  "factor": {
+    "app": {
+      "name": "factor-test-vr",
+      "description": "factor-test-vr to local test",
+      "url": "factor-test-vr.com",
+      "email": "victor@strivelabs.io"
+    },
+    "admins": [
+      "victor@strivelabs.io"
+    ],
+    "load": [
+      "app",
+      "server"
+    ]
   }
 }
