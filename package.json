@@ -13,6 +13,10 @@
     "@factor/plugin-storage-s3": "^1.0.0",
     "@factor/theme-zeno": "^1.7.10"
   },
+  "scripts": {
+    "build": "npx factor build",
+    "start": "npx factor serve"
+  },
   "factor": {
     "app": {
       "name": "factor-test-vr",
